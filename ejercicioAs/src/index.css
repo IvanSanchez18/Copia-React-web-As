@@ -1,0 +1,23 @@
+* {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.m-996 {
+    max-width: 996px;
+}
+
+.divs-center > div {
+    flex: 1 !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.margin-auto {
+    margin: auto !important;
+}

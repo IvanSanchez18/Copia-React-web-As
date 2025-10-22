@@ -1,5 +1,5 @@
-.card-news-container{
-    .card-category-container a{
+.card-news-container {
+    .card-category-container a {
         font-size: 13px;
         line-height: 15px;
         color: #434343;
@@ -7,43 +7,43 @@
         text-decoration: none;
     }
 
-    .card-image-container{
+    .card-image-container {
         margin-bottom: 15px;
 
-            div{
-                aspect-ratio: 16 / 9;
-                background-position: center;
-                background-size: cover;
-                position: relative;
+        div {
+            aspect-ratio: 16 / 9;
+            background-position: center;
+            background-size: cover;
+            position: relative;
 
-                    .play-button{
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        background-color: red;
-                        border-radius: 100px;
-                        overflow: hidden;
-                        height: 100px;
-                        width: 100px;
-                        display: flex;
-                        transition: background .2s ease-in;
+            .play-button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: red;
+                border-radius: 100px;
+                overflow: hidden;
+                height: 100px;
+                width: 100px;
+                display: flex;
+                transition: background .2s ease-in;
 
-                        &:hover{
-                            background-color: #333;
-                        }
+                &:hover {
+                    background-color: #333;
+                }
 
-                        i{
-                            color: white;
-                            font-size: 75px;
-                            margin: auto auto auto 15px;
-                            line-height: 50px;
-                        }
-                    }
+                i {
+                    color: white;
+                    font-size: 75px;
+                    margin: auto auto auto 15px;
+                    line-height: 50px;
+                }
             }
+        }
     }
 
-    .card-text-container a{
+    .card-text-container a {
         transition: color .2s ease-in;
         text-decoration: none;
         color: #151515;
@@ -51,13 +51,13 @@
         line-height: 22px;
         font-weight: bold;
 
-        &:hover{
-            color : #f9a300;
+        &:hover {
+            color: #f9a300;
         }
     }
 
     .card-footer-container {
-        span{
+        span {
             color: #666;
             font-size: 12px;
             line-height: 18px;
@@ -65,11 +65,10 @@
             margin-right: 10px;
             border-right: 1px solid #e8e8e8;
         }
-        i{
+
+        i {
             color: #666;
             font-size: 12px;
         }
     }
-
-
 }

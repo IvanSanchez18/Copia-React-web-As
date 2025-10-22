@@ -1,12 +1,12 @@
 import "./cardNewsAlt.css"
 
-function CardNewsAlt({ image, category, title, footer }) {
+function CardNewsAlt({ col, image, category, title, footer }) {
     return (
-        <div className="col-12 card-news-container-alt">
+        <div className={`${col} card-news-container-alt`}>
             <div className="card-image-container">
-            <a href="#">
-                <div style={{ backgroundImage: `url("${image}")` }}></div>
-            </a>
+                <a href="#">
+                    <div style={{ backgroundImage: `url("${image}")` }}></div>
+                </a>
             </div>
             <div className="card-news-alt-content">
                 <div className="card-category-container">

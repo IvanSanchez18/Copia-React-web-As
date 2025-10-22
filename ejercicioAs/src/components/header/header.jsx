@@ -2,7 +2,7 @@ import "./header.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 
-function Header (){
+function Header() {
 
     return (
         <header>
@@ -52,6 +52,6 @@ function Header (){
 
         </header>
     );
-
 }
+
 export default Header
